@@ -4,7 +4,7 @@
   "domain": "webdevnote",
   "description": "Share my personal dev note for the web developers.",
   "genre": "Blog",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "googleAnalyticsId": "UA-41610509-13",
   "sendWebVitals": false,
   "feed": {
     "subtitle": "Jeff Wen's dev note website",
@@ -17,8 +17,8 @@
     "url": "https://webdevnote.com/feed/feed.json"
   },
   "author": {
-    "name": "Jeff",
-    "twitterHandle": "@sinchangwen"
+    "name": "webdevnote",
+    "twitterHandle": "webdevnote"
   },
   "publisher": {
     "name": "Jeff Wen"
