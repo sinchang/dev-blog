@@ -63,15 +63,6 @@ describe("check build output for a generic post", () => {
       expect(css).to.not.match(/test-dead-code-elimination-sentinel/);
     });
 
-    it("should have script elements", () => {
-      const scripts = doc.querySelectorAll("script[src]");
-      let has_ga_id = GA_ID ? 1 : 0;
-      expect(scripts).to.have.length(has_ga_id); // NOTE: update this when adding more <script>
-      expect(scripts[0].getAttribute("src")).to.match(
-        /^\/js\/min\.js\?hash=\w+/
-      );
-    });
-
     it("should have a good CSP", () => {
       assert(existsSync("./_site/_headers"), "_header exists");
       const headers = parseHeaders(
