@@ -927,9 +927,6 @@ footer {
   padding: 3em;
   text-align: center;
 }
-footer > * {
-  margin: 1.5em;
-}
 footer nav a img {
   vertical-align: middle;
 }
