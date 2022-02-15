@@ -17,10 +17,10 @@
     "url": "https://webdevnote.com/feed/feed.json"
   },
   "author": {
-    "name": "Jeff Wen",
+    "name": "Web Dev Note",
     "twitterHandle": "@sinchangwen"
   },
   "publisher": {
-    "name": "Jeff Wen"
+    "name": "Web Dev Note"
   }
 }
