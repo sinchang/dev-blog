@@ -4,7 +4,6 @@ const { JSDOM } = require("jsdom");
 const readFileSync = require("fs").readFileSync;
 const existsSync = require("fs").existsSync;
 const metadata = require("../_data/metadata.json");
-const GA_ID = require("../_data/googleanalytics.js")();
 const { parseHeaders } = require("../_11ty/apply-csp");
 
 /**
