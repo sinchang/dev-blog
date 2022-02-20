@@ -1121,3 +1121,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
+.post-tag {
+  padding: 0 0.2em;
+}
