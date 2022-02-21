@@ -37,7 +37,17 @@ templateClass: tmpl-post
   would be highly appreciated 💖! For feedback, please
   <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">ping me on Twitter.</a>
   </p>
-
+  <hr>
+  <p style="font-weight: bold;">Discussion(login required)</p>
+  <script
+  id="utterance-script"
+  src="https://utteranc.es/client.js"
+  repo="sinchang/dev-blog"
+  issue-term="title"
+  label="utterance"
+  theme="github-dark"
+  crossorigin="anonymous"
+  async></script>
   <share-widget>
     <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
       <div></div>
