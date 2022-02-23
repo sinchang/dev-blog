@@ -7,7 +7,7 @@ tags:
   - Storybook
   - React
 layout: layouts/post.njk
-image: https://user-images.githubusercontent.com/3297859/154039772-04997c78-c4c6-4e5a-9590-99e23a065c1d.png
+image: https://user-images.githubusercontent.com/3297859/154826042-89381812-f837-479b-9772-a1685f01b688.png
 ---
 
 I recently upgraded the Storybook from v6.1.11 to v6.4.19 in my company's project, but the process is not smooth. I met the two issues on my upgrading.
