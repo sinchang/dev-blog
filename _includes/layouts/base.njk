@@ -47,6 +47,7 @@
     <script async defer src="{{ "/js/min.js" | addHash }}"
       {% if webvitals %}data-cwv-src="{{ "/js/web-vitals.js" | addHash }}"{% endif %}>
     </script>
+    <script async src="https://umami-sinchang.vercel.app/script.js" data-website-id="ef5ae4db-82f3-4213-83f1-5a565a907d8b"></script>
     {% if googleanalytics and not isdevelopment %}
        <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleanalytics }}"></script>
       <script>
